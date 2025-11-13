@@ -1,13 +1,13 @@
-import React from 'react'
-import Link_1 from './components/Link_1'
-// rfce ka use oilar palete kare
+import React from "react";
+import Weather from "./components/Weather";
+
+
 function App() {
   return (
     <div>
-      <Link_1/>
-      
+      <Weather/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
